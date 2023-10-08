@@ -735,7 +735,7 @@ body .projects .image div p {
   text-align: left;
   font-size: 16px;
   font-weight: 700;
-  color: #333;
+  color: #000000;
   margin-top: 2rem;
   margin-bottom: 0px;
 }
@@ -747,7 +747,7 @@ html .projects .image div a,
 body .projects .image div a {
   text-decoration: none;
   background-color: transparent;
-  color: rgb(91, 89, 89);
+  color: rgb(0, 0, 0);
   font-weight: 200;
   padding: 0;
   border: none;
@@ -1315,6 +1315,16 @@ body footer .footer-bottom div i {
   display: flex;
   margin-right: 15px;
   color: white;
+}
+html footer .icons a,
+body footer .icons a {
+  color: #191919;
+  font-size: 1.1rem;
+  margin-left: 10px;
+}
+html footer .icons a:hover,
+body footer .icons a:hover {
+  color: #7c7c7c;
 }
 html footer .wavy-line,
 body footer .wavy-line {

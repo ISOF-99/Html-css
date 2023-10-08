@@ -754,7 +754,7 @@ body {
                     text-align: left;
                     font-size: 16px;
                     font-weight: 700;
-                    color: #333;
+                    color: #000000;
                     margin-top: 2rem;
                     margin-bottom: 0px;
                 }
@@ -766,7 +766,7 @@ body {
                 a {
                     text-decoration: none;
                     background-color: transparent;
-                    color: rgb(91, 89, 89);
+                    color: rgb(0, 0, 0);
                     font-weight: 200;
                     padding: 0;
                     border: none;
@@ -1371,6 +1371,19 @@ body {
                     color: white;
                 }
             }
+        }
+        .icons{
+            
+                a {
+                    color: #191919;
+                    font-size: 1.1rem;
+                    margin-left: 10px;
+
+                    &:hover {
+                        color: #7c7c7c;
+                    }
+                }
+            
         }
 
         .wavy-line {
